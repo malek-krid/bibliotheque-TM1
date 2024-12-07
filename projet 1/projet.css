@@ -1,0 +1,87 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* En-tête */
+
+header {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    background-color: #0b4645;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Section principale */
+main {
+    padding: 2rem;
+}
+
+.category {
+    margin-bottom: 2rem;
+}
+
+.category h2 {
+    color: #000000;
+    border-bottom: 2px solid #f4a261;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* Grille des livres */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+}
+
+.book {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book img {
+    width: 50%;
+    height: auto;
+}
+
+.book h3 {
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.book p {
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Effet hover */
+.book:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}

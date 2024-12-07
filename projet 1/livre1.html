@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioM </title>
+    <link rel="stylesheet" href="livre1.css">
+</head>
+<body>
+<header>
+    <p>Livraison gratuite à partir de 50DT d'achat !</p>
+    <h1>BiblioM</h1>
+    <a href="projet.html">
+        <button>Accueil</button>
+    </a>
+</header>
+
+<div class="container">
+    <img src="romantique.jpg" alt="">
+    <div>
+        <h2>Orgueil et Préjugés</h2>
+        <p>Élisabeth Bennet a quatre sœurs et une mère qui ne songe qu’à les marier. Quand parvient la nouvelle de l’installation à Netherfield, le domaine voisin, de Mr Bingley, célibataire et beau parti, toutes les dames des alentours sont en émoi, d’autant plus qu’il est accompagné de son ami Mr Darcy, un jeune et riche aristocrate. Les préparatifs du prochain bal occupent tous les esprits… Jane Austen peint avec ce qu’il faut d’ironie les turbulences du cœur des jeunes filles et, aujourd’hui comme hier, on s’indigne avec l’orgueilleuse Élisabeth, puis on ouvre les yeux sur les voies détournées qu’emprunte l’amour…</p>
+        <p class="Auteur">Auteur : Jane Austen </p>
+        <p class="remise"> -20%  <s>25DT</s></p>
+        <p class="prix">Prix : 20DT</p>
+        <a href=""><button>Confirmer</button></a>
+    </div>
+</div>
+ <div>
+    <center><h2>Confirmation De La Commande : </h2></center>
+ </div>
+<form>
+    <center>
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+
+    <label for="prenom">Prénom:</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required>
+
+    <label for="prenom">Date De Naissance:</label>
+    <input type="date" id="Date" name="Date" placeholder="Entrez votre Date De Naissance" required>
+
+    <label for="adresse">Adresse:</label>
+    <input type="text" id="adresse" name="adresse" placeholder="Entrez votre adresse" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+
+    <label for="telephone">Téléphone:</label>
+    <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" required>
+</center>
+  
+<center>
+    <input type="checkbox" id="Conditions" name="Conditions" value="Conditions">
+    <label for="confidentialité"> Vous acceptez les Conditions d'utilisation et la Politique de confidentialité .</label><br>
+</center>
+
+<center><button type="submit">Soumettre</button></center>
+<div class="success">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+   validation!
+  </div>
+
+
+</form>
+
+<footer>
+    <p><strong>Contactez-nous:</strong></p>
+    <ul>
+        <li>Email: bibliom025@gmail.com</li>
+        <li>Phone: +216 55 984 321</li>
+        <li>Address: Avenue de la Lecture, Tunis, Sfax</li>
+    </ul>
+    <p>&copy; 2024 BiblioM Bibliothèque</p>
+</footer>
+
+</body>
+</html>

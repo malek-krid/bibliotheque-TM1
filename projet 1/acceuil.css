@@ -1,0 +1,78 @@
+/* Réinitialisation des marges et paddings pour tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Assure que paddings et bordures sont inclus dans les dimensions */
+}
+
+/* Style global du corps */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Police simple et moderne */
+    width: 100%; /* Corps prend toute la largeur de la fenêtre */
+    height: 100%; /* Corps prend toute la hauteur de la fenêtre */
+    background-color: #f4f4f4; /* Couleur de fond pour les sections hors hero */
+}
+
+
+/* Section principale avec image pleine page */
+.hero {
+    width: 100%; /* Prend toute la couleur de la fenêtre */
+    height: 100vh; /* Prend toute la hauteur visible de la fenêtre */
+    background: url('biblio.webp') no-repeat center center; /* Image centrée */
+    background-size: cover; /* Image redimensionnée pour couvrir toute la section */
+    display: flex; /* Active flexbox pour centrer le contenu */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    text-align: center; /* Texte centré */
+    color: #fff; /* Texte en blanc */
+}
+
+/* Conteneur de contenu dans la section */
+.content {
+    background-color: rgba(0, 0, 0, 0.6); /* Cadre semi-transparent */
+    padding: 5%; /* Espacement interne pour agrandir le cadre */
+    border-radius: 10px; /* Coins arrondis pour un effet esthétique */
+    width: 70%; /* Largeur du cadre */
+}
+
+/* Style du titre dans la section */
+.hero h2 {
+    font-size: 2.5rem; /* Taille du titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Style du paragraphe dans la section */
+.hero p {
+    font-size: 1.2rem; /* Taille du texte */
+    margin-bottom: 30px; /* Espacement sous le texte */
+}
+
+/* Style du bouton */
+.btn {
+    display: inline-block; /* Rend le bouton en bloc */
+    padding: 10px 100px; /* Espacement interne du bouton */
+    font-size: 1rem; /* Taille du texte du bouton */
+    color: #ffffff; /* Texte en blanc */
+    background-color: #0b4645; /* Couleur de fond bleu */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 50px; /* Coins légèrement arrondis */
+    transition: background-color 0.3s ease; /* Animation lors du survol */
+}
+
+.btn:hover {
+    background-color: #ffffff; /* Couleur plus claire au survol */
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #333; /* Couleur de fond bleu foncé */
+    color: #fff; /* Texte en blanc */
+    text-align: center; /* Texte centré */
+    padding: 10px 50px; /* Espacement vertical */
+    position: relative; /* Position normale */
+    bottom: 0px; /* Aligne au bas de la page */
+    width: 100%; /* Prend toute la largeur */
+}
+
+
+
